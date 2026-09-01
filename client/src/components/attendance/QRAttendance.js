@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Paper, Typography, Box, Button, TextField, Alert, Grid, Chip, Card, CardContent } from '@mui/material';
+import { Typography, Box, Button, TextField, Alert, Grid, Chip, Card, CardContent } from '@mui/material';
 import { QrCode, CheckCircle, School, People, Timer, Refresh } from '@mui/icons-material';
 import { AuthContext } from '../../context/AuthContext';
 import { useNotifier } from '../layout/Notifier';

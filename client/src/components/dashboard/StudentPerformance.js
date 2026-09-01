@@ -3,11 +3,10 @@ import React, { useState, useEffect } from 'react';
 import {
   Box, Typography, Paper, Grid, Card, CardContent,
   LinearProgress, Chip, Table, TableBody, TableCell,
-  TableContainer, TableHead, TableRow, Alert
+  TableContainer, TableHead, TableRow
 } from '@mui/material';
 import {
-  CheckCircle, Fingerprint, QrCode, Security,
-  TrendingUp, EventAvailable, AccessTime
+  Fingerprint, QrCode, EventAvailable
 } from '@mui/icons-material';
 import { getStudentPerformance } from '../../api/performanceApi';
 
