@@ -79,7 +79,6 @@ const StudentDetailsPage = () => {
 
   return (
     <Box sx={{ p: 2 }}>
-      {/* Header */}
       <Box sx={{ mb: 3 }}>
         <Typography variant="h4" fontWeight="bold" gutterBottom>
           Student Roster & Performance Analytics
@@ -89,7 +88,6 @@ const StudentDetailsPage = () => {
         </Typography>
       </Box>
 
-      {/* KPI Cards */}
       <Grid container spacing={2} sx={{ mb: 3 }}>
         <Grid item xs={12} sm={6} md={3}>
           <Card elevation={2}>
@@ -137,7 +135,6 @@ const StudentDetailsPage = () => {
         </Grid>
       </Grid>
 
-      {/* Main Student Directory Table */}
       <Paper elevation={3} sx={{ p: 2, borderRadius: 2 }}>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2, flexWrap: 'wrap', gap: 2 }}>
           <TextField
@@ -226,7 +223,6 @@ const StudentDetailsPage = () => {
         </TableContainer>
       </Paper>
 
-      {/* Student Performance Analytics Dialog */}
       <Dialog
         open={dialogOpen}
         onClose={() => setDialogOpen(false)}
