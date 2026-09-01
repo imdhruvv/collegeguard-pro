@@ -23,7 +23,6 @@ const StudentPerformance = ({ studentId, studentName = 'Student' }) => {
         if (data && data.attendance && data.attendance.length > 0) {
           setPerformance(data.attendance);
         } else {
-          // Generate realistic sample records for demo
           setPerformance(getMockRecords());
         }
       } catch (err) {
