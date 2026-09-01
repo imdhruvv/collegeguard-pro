@@ -1,7 +1,7 @@
 // client/src/components/dashboard/StudentPerformance.js
 import React, { useState, useEffect } from 'react';
 import {
-  Box, Typography, Grid, Card, CardContent,
+  Box, Typography, Paper, Grid, Card, CardContent,
   LinearProgress, Chip, Table, TableBody, TableCell,
   TableContainer, TableHead, TableRow
 } from '@mui/material';
